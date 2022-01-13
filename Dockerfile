@@ -11,7 +11,7 @@ ENV LC_ALL C.UTF-8
 ENV LANG en_US.UTF-8
 ENV LANGUAGE en_US.UTF-8
 
-ADD apt update -y && apt install -y git
+RUN apt update -y && apt install -y git
 
 ADD zola /usr/local/bin/zola
 
