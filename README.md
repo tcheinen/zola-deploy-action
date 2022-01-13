@@ -1,5 +1,8 @@
 # Zola Deploy Action
 
+
+i forked this bc im not patient and i want my fix to zola now not when there is a new release you should really use the original lol
+
 [![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fshalzz%2Fzola-deploy-action%2Fbadge&style=flat)](https://actions-badge.atrox.dev/shalzz/zola-deploy-action/goto)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/shalzz/zola-deploy-action?sort=semver)
 
