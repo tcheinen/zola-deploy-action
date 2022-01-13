@@ -11,11 +11,7 @@ ENV LC_ALL C.UTF-8
 ENV LANG en_US.UTF-8
 ENV LANGUAGE en_US.UTF-8
 
-RUN apt-get update && apt-get install -y wget git
-
-RUN wget -q -O - \
-"https://github.com/getzola/zola/releases/download/v0.15.2/zola-v0.15.2-x86_64-unknown-linux-gnu.tar.gz" \
-| tar xzf - -C /usr/local/bin
+ADD zola /usr/local/bin/zola
 
 COPY entrypoint.sh /entrypoint.sh
 
